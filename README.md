@@ -2,7 +2,7 @@
 
 **Hosted live at:** https://shivani8136.github.io/coffee-cup-size-guide/
 
-**Technology used:** HTML, CSS
+**Technology used:** HTML, CSS(Internal)
 
 The webpage has been made responsive using Media queries and CSS Flexbox.
 
