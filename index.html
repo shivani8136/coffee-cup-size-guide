@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee cup size guide</title>
+    <style>
+
+        .container{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .coffee-size{
+            border: 2px solid #343d5c;
+            background-color: #343d5c;
+            color: #dee0e7;
+            
+        }
+
+        .dimensions,.equivalent{
+            font-size: 14px;
+            font-weight: bold; 
+            padding: 10px;       
+        }
+
+        .size-name{
+            font-weight: bold;
+            font-size: 30px;  
+            padding: 10px; 
+        }
+
+        .size-measure{
+            font-weight: bold;
+            font-size: 20px;  
+            padding: 10px;
+        }
+
+        .dimensions-list{
+            list-style: none;
+        }
+
+        .dimensions-list>li{
+            margin-bottom: 5px;
+        }
+
+        .equivalent-list{
+            list-style: none;
+        }
+
+        .equivalent-list>li{
+            margin-bottom: 5px;
+        }
+
+        @media (max-width:1250px){
+            .container{
+                flex-direction: column;
+                height:100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coffee-size">
+            <div class="size-name">LARGE</div>
+            <div class="size-measure">475ml/ 16oz.</div>
+            <img class="image" src="./images/large.JPG" width="250px" height="350px" />
+            <div class="dimensions">DIMENSIONS</div>
+            <ul class="dimensions-list">
+                <li><strong>Height:</strong> 145mm/ 5.7"</li>
+                <li><strong>Diameter:</strong> 85mm/ 3.35"</li>
+                <li><strong>Base Diameter:</strong> 60mm/ 2.4"</li>
+                <li><strong>Weight:</strong> 205g/ 7.21oz</li>
+            </ul>
+            <div class="equivalent">EQUIVALENT</div>
+            <ul class="equivalent-list">
+                <li><strong>Starbucks:</strong> Grande</li>
+                <li><strong>Tim Hortons:</strong> N/A</li>
+                <li><strong>Dunkin:</strong> N/A</li>
+            </ul>
+        </div>
+        
+        <div class="coffee-size">
+            <div class="size-name">X MEDIUM</div>
+            <div class="size-measure">400ml/ 14oz.</div>
+            <img class="image" src="./images/x-medium.JPG" width="250px" height="350px" />
+            <div class="dimensions">DIMENSIONS</div>
+            <ul class="dimensions-list">
+                <li><strong>Height:</strong> 130mm/ 5.12"</li>
+                <li><strong>Top Diameter:</strong> 85mm/ 3.35"</li>
+                <li><strong>Base Diameter:</strong> 56mm/ 2.2"</li>
+                <li><strong>Weight:</strong> 160g/ 5.65oz</li>
+            </ul>
+            <div class="equivalent">EQUIVALENT</div>
+            <ul class="equivalent-list">
+                <li><strong>Starbucks:</strong> N/A</li>
+                <li><strong>Tim Hortons:</strong> Medium</li>
+                <li><strong>Dunkin:</strong> Medium</li>
+            </ul>
+        </div>
+        
+        <div class="coffee-size">
+            <div class="size-name">MEDIUM</div>
+            <div class="size-measure">350ml/ 12oz.</div>
+            <img class="image" src="./images/medium.JPG" width="250px" height="350px" />
+            <div class="dimensions">DIMENSIONS</div>
+            <ul class="dimensions-list">
+                <li><strong>Height:</strong> 105mm/ 4.0"</li>
+                <li><strong>Top Diameter:</strong> 85mm/ 3.35"</li>
+                <li><strong>Base Diameter:</strong> 60mm/ 2.4"</li>
+                <li><strong>Weight:</strong> 142g/ 5.50oz</li>
+            </ul>
+            <div class="equivalent">EQUIVALENT</div>
+            <ul class="equivalent-list">
+                <li><strong>Starbucks:</strong> Tall</li>
+                <li><strong>Tim Hortons:</strong> Small</li>
+                <li><strong>Dunkin:</strong> Small</li>
+            </ul>
+        </div>
+        
+        <div class="coffee-size">
+            <div class="size-name">SMALL</div>
+            <div class="size-measure">250ml/ 8oz.</div>
+            <img class="image" src="./images/small.JPG" width="250px" height="350px" />
+            <div class="dimensions">DIMENSIONS</div>
+            <ul class="dimensions-list">
+                <li><strong>Height:</strong> 73mm/ 2.87"</li>
+                <li><strong>Top Diameter:</strong> 80mm/ 3.15"</li>
+                <li><strong>Base Diameter:</strong> 56mm/ 2.2"</li>
+                <li><strong>Weight:</strong> 140g/ 4.75oz</li>
+            </ul>
+            <div class="equivalent">EQUIVALENT</div>
+            <ul class="equivalent-list">
+                <li><strong>Starbucks:</strong> Short</li>
+                <li><strong>Tim Hortons:</strong> X Small</li>
+                <li><strong>Dunkin:</strong> N/A</li>
+            </ul>
+        </div>
+        
+        <div class="coffee-size">
+            <div class="size-name">MINI</div>
+            <div class="size-measure">120ml/ 4oz.</div>
+            <img class="image" src="./images/mini.JPG" width="250px" height="350px" />
+            <div class="dimensions">DIMENSIONS</div>
+            <ul  class="dimensions-list">
+                <li><strong>Height:</strong> 68mm/ 2.7"</li>
+                <li><strong>Top Diameter:</strong> 74mm/ 3.1"</li>
+                <li><strong>Base Diameter:</strong> 48mm/ 1.9"</li>
+                <li><strong>Weight:</strong> 95g/ 3.4oz</li>
+            </ul>
+            <div class="equivalent">EQUIVALENT</div>
+            <ul class="equivalent-list">
+                <li><strong>Starbucks:</strong> Demi</li>
+                <li><strong>Tim Hortons:</strong> N/A</li>
+                <li><strong>Dunkin:</strong> N/A</li>
+            </ul>
+        </div>
+        
+    </div>
+    
+
+</body>
+</html>
